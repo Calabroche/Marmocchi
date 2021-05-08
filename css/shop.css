@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #151515;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.logo span{
+    font-weight: 300;
+    background-color: transparent;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    background-color: transparent;
+    background: linear-gradient(45deg, #af6c6c 0%, #686765 100%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
+
+/*Image*/
+
+.container{
+    max-width: 80rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 30;
+    background: linear-gradient(to bottom, rgba( 0, 0, 0, 0.05), transparent);
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.big-title{
+    position: absolute;
+    z-index: 30;
+    line-height: 5rem;
+    top: calc(25% - 2rem);
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    background: linear-gradient(45deg, #ebe3d5 0%, #af6c6c 100%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
+
+img{
+    width: 100%;
+    height: 105%;
+    background: linear-gradient(to bottom, transparent);
+
+}
+
+/*Produit - Olive*/
+
+section{
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+}
+
+section .container{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: -200px;
+}
+
+section img{
+    width: 100%;
+}
+
+section .container > *{
+    margin: 2rem;
+}
+
+.content{
+    color: #fff;
+    transform: translateY(-50px);
+}
+
+.imgContainer{
+    transform: translateY(10px);
+    background-color: transparent;
+    margin-top: -300px;
+}
+
+.imgContainer img{
+    height: 342px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    position: relative;
+    margin-top: -100px;
+}
+
+.border{
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+}
+
+.shadow{
+    position: absolute;
+    bottom: 100%;
+    height: 400px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #151515, transparent);
+}
+
+.opacity{
+    opacity: 0;
+    background-color: transparent;
+}    
+
+.text{
+    background-color: transparent;
+}
+
+/*Produit - Cantuccini*/
+
+div{
+    width: 100%;
+    background-color: #a78282;
+    position: relative;
+}
+
+div .container1{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+}
+
+.title1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    position: relative;
+    margin-top: -200px;
+    margin-left: 273px;
+}
+
+.content1{
+    color: rgb(255, 255, 255);
+    transform: translateY(-30px);
+    padding: 3rem;
+}
+
+.imgContainer1{
+    width: 592px;
+    left: 15px;
+    height: 340px;
+}
+
+.border1{
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+}
+
+.imgContainer1 img{
+    width: 592px;
+    left: 15px;
+    height: 342px;
+}
+
+div .container1 > *{
+    margin: 1rem;
+}
+
+.text1{
+    background-color: transparent;
+    margin-left: 275px;
+}
+
+
+/*Produit - Mozza*/
+
+div{
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+}
+
+div .container2{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.content2{
+    color: rgb(255, 255, 255);
+    transform: translateY(-30px);
+    padding: 3rem;
+}
+
+.imgContainer2{
+    width: 592px;
+    left: 15px;
+    height: 340px;
+}
+
+.border2{
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+}
+
+.imgContainer2 img{
+    width: 592px;
+    left: 15px;
+    height: 342px;
+}
+
+div .container2 > *{
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1425px){
+   
+    .logo{
+        max-width: 80rem;
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+
+    .big-title1{
+        font-size: 3rem
+    }
+
+    .text1{
+        background-color: transparent;
+        margin-left: 35px;
+    }
+
+    .title1{
+        font-size: 1.5rem;
+        margin-left: 35px;
+    }
+
+
+    div .container2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .border2{
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        background-color: #fff;
+        bottom: 0;
+        left: 0;
+    }
+
+}
+
+@media (max-width: 850px){
+    section .container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 600px){
+    .big-title{
+        font-size: 3rem
+    }
+
+    .text{
+        font-size: .8rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+}

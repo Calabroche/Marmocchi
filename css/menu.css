@@ -1,0 +1,187 @@
+.title{
+    font-family: sans-serif;
+    color: #a01414;
+    text-align: center;
+}
+
+.back img {
+    width: 1920px;
+    height: 1080px;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+h1{
+    color: #979085;
+}
+
+/*Box around the tab*/
+.box{
+    width: 1300px;
+    height: 600px;
+    background-color: #d8d0c0;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: 290px;
+    margin-top: 50px;
+}
+
+.box1{
+    width: 1000px;
+    height: 400px;
+    background-color: #ebe3d5;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+/*For the link to go back*/
+.btn9 {
+    text-align: right;
+    font-weight: 700;
+    font-size: 25px;
+    border: 4px solid;
+    background: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 730px;
+    box-sizing: border-box;
+}
+  
+.btn10 {
+    color: #333;
+}
+  
+.btn9::before, .btn::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #d8d0c0;
+    transform: skewX(50deg);
+    transition: 0.5s linear;
+}
+
+.btn9::before {
+    top: -4px;
+    left: 10%;
+}
+  
+.btn9::after {
+    top: 52px;
+    right: 10%;
+}
+  
+.btn9:hover::before {
+    left: 80%;
+}
+  
+.btn9:hover::after {
+    right: 80%;
+}
+
+/* Tab */
+.tabContainer{
+    width: 70%;
+    margin-top: 5%;
+    height: 350px;
+    margin-left: -300px;
+}
+.tabContainer .buttonContainer{
+    height: 15%;
+}
+.tabContainer .buttonContainer button{
+    width: 30%;
+    height: 100%;
+    display: block;
+    position: sticky;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #d8d0c0;
+    color: black;
+}
+.buttonContainer{
+    margin-right: 100px;
+    margin-left: -120px;
+
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: transparent;
+}
+.tabContainer .tabPanel{
+    height: 120%;
+    width: 1000px;
+    color: rgb(0, 0, 0);
+    display: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 105px;
+    margin-top: -200px;
+    font-size: 20px;
+    font-family: "clarendon";
+}
+.tabPanel{
+    margin-top: -250px;
+    margin-left: 300px;
+    margin-right: -85px;
+}
+/* Portrait tablet to landscape and desktop écran de mon mac */
+@media (min-width: 1100px) and (max-width: 1468px) {
+
+.back img {
+    width: 1440px;
+    height: 900px;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.btn9 {
+    margin-left: 450px;
+    box-sizing: border-box;
+}
+.box{
+    width: 1000px;
+    height: 500px;
+    background-color: #d8d0c0;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    margin-left: 195px;
+    margin-top: 20px;
+}
+
+.box1{
+    width: 800px;
+    height: 400px;
+    background-color: #ebe3d5;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.btn9 {
+    margin-left: 480px;
+}
+
+.buttonContainer{
+    margin-left: 10px;
+}
+
+.tabContainer .tabPanel{
+    margin-left: 400px;
+    width: 600px;
+}
+}
